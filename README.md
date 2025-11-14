@@ -20,3 +20,15 @@ Planned scripts:
 - `scripts/compute_SVD.py` – compute SVD/POD from snapshot matrices.
 - `scripts/post_process_SVD.py` – post-process modes, reconstructions, plots.
 
+
+python scripts/build_snapshots_matrix.py \
+  --case-num 80 \
+  --data-dir /path/to/RHEA/h5/files \
+  --output-dir /path/to/output \
+  --start-file 3d_turbulent_channel_flow_7500000.h5 \
+  --end-file   3d_turbulent_channel_flow_8400000.h5 \
+  --geometry channel
+
+
+
+
