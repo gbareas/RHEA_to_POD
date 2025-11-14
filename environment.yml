@@ -1,0 +1,10 @@
+name: rhea_to_pod
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - h5py
+  - matplotlib
+  - pip
