@@ -36,7 +36,7 @@ python scripts/build_snapshots_matrix.py \
   --start-file 3d_turbulent_channel_flow_7500000.h5 \
   --end-file   3d_turbulent_channel_flow_8400000.h5 \
   --geometry channel
-
+```
 
 ### Compute POD (SVD) from snapshot matrices 
 
@@ -60,8 +60,9 @@ python scripts/compute_SVD.py \
   --output /path/to/svd_u_CASE_28_channel_ite_64385000-68112500.npz \
   --variable u
 
+```
 
-## Post-process POD modes and generate colormaps
+### Post-process POD modes and generate colormaps
 
 Once the snapshot matrices and POD (SVD) have been computed, you can reconstruct and visualize the dominant spatial structures from the POD modes using:
 
@@ -96,3 +97,4 @@ python scripts/post_process_SVD.py \
   --T-ref 300.0 \
   --save-h5
 
+```
