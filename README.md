@@ -23,7 +23,18 @@ Planned scripts:
 
 ## Instructions to run RHEA to POD
 
+RHEA to POD has a 3-step workflow:
+(i) Process raw RHEA data to select only desired fields. Final output is a snapshot matrix.
+(ii) Execute SVD of the snapshot matrix previously created.
+(iii) Post process the SVD results.
 
+To execute this workflow there are two different ways, edit the parameters in the bash file or execute each python script indepently.
+
+### Option 1: Run complete bash pipeline
+
+
+
+### Option 2: Execute each script indenpently
 ### Building snapshot matrices from RHEA DNS output
 
 To generate the snapshot matrices from a sequence of RHEA `.h5` files:
